@@ -33,6 +33,8 @@ Requires: google-compute-engine-oslogin
 Requires: google-guest-agent
 Requires: rsyslog
 Requires: nvme-cli
+Conflicts: google-startup-scripts
+Obsoletes: google-startup-scripts
 
 BuildArch: noarch
 
